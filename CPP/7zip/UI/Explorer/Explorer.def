@@ -1,0 +1,9 @@
+; 7-zip.def
+
+LIBRARY "Explorer"
+
+EXPORTS
+  DllCanUnloadNow PRIVATE
+  DllGetClassObject PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE
